@@ -3,7 +3,7 @@ title:  "Ubuntu Docker & Django 프로젝트"
 excerpt: ""
 
 categories:
-  - Docker, Django
+  - linux, django, docker
 tags:
   - [Docker, Ubuntu, Django]
 

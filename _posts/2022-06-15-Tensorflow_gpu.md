@@ -3,7 +3,7 @@ title:  "Tensorflow GPU"
 excerpt: ""
 
 categories:
-  - Tensorflow
+  - tensorflow
 tags:
   - [Tensorflow]
 
