@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Python
-nav_order: 2
-permalink: /Python
+title: Maplibre
+nav_order: 9
+permalink: /Maplibre
 ---
 list
 <ul>
   {% assign posts = site.posts | sort: "last_modified_at" | reverse %}
   
   {% for post in posts %}
-    {% if post.categories contains "python" %}
+    {% if post.categories contains "maplibre" %}
     <li>
       <a href="{{ post.url }}">{{ post.title }} / {{ post.last_modified_at }}</a>
     </li>

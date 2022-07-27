@@ -30,7 +30,7 @@ twitter_username:
 github_username:  changheum
 
 # Build settings
-theme: jekyll-theme-leap-day
+theme: just-the-docs
 plugins:
   - jekyll-feed
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SpringBoot
-nav_order: 4
+nav_order: 5
 permalink: /SpringBoot
 ---
 list
@@ -9,7 +9,7 @@ list
   {% assign posts = site.posts | sort: "last_modified_at" | reverse %}
   
   {% for post in posts %}
-    {% if post.tags contains "SpringBoot" %}
+    {% if post.categories contains "spring" %}
     <li>
       <a href="{{ post.url }}">{{ post.title }} / {{ post.last_modified_at }}</a>
     </li>

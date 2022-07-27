@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Python
-nav_order: 2
-permalink: /Python
+title: JavaScript
+nav_order: 4
+permalink: /JavaScript
 ---
 list
 <ul>
   {% assign posts = site.posts | sort: "last_modified_at" | reverse %}
   
   {% for post in posts %}
-    {% if post.categories contains "python" %}
+    {% if post.categories contains "javascript" %}
     <li>
       <a href="{{ post.url }}">{{ post.title }} / {{ post.last_modified_at }}</a>
     </li>

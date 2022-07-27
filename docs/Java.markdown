@@ -9,7 +9,7 @@ list
   {% assign posts = site.posts | sort: "last_modified_at" | reverse %}
   
   {% for post in posts %}
-    {% if post.tags contains "Java" %}
+    {% if post.categories contains "java" %}
     <li>
       <a href="{{ post.url }}">{{ post.title }} / {{ post.last_modified_at }}</a>
     </li>
