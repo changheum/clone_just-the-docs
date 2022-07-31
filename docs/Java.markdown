@@ -4,7 +4,8 @@ title: Java
 nav_order: 3
 permalink: /Java
 ---
-list
+자바
+
 <ul>
   {% assign posts = site.posts | sort: "last_modified_at" | reverse %}
   

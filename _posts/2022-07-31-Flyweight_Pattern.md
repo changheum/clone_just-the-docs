@@ -3,9 +3,9 @@ title:  "[Effective Java] Flyweight Pattern"
 excerpt: ""
 
 categories:
-  - java, effective java
+  - java
 tags:
-  - [Java, Flyweight Pattern]
+  - [Java, Flyweight Pattern, effective java]
 
 toc: true
 toc_sticky: true
