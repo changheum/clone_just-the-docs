@@ -9,13 +9,13 @@ description: "description"
 permalink: /
 ---
 
-# Welcome to changheum.github.io
+# 윤창흠
 {: .fs-8 }
 
 <!-- Github Description
-{: .fs-6 .fw-300 } -->
+{: .fs-6 .fw-300 } 
 
-<!-- [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2} -->
+[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2} 
 
 <ul>
   {% for post in site.posts %}
@@ -24,3 +24,4 @@ permalink: /
     </li>
   {% endfor %}
 </ul>
+-->
